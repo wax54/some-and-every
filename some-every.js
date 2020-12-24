@@ -47,9 +47,9 @@ Examples:
 */
 
 function hasOnlyOddNumbers(arr) {
-    arr.every(function(val){
-        return (val % 2) === 0
-    })
+    return arr.every(function(val){
+        return (val % 2) == 1;
+    });
 }
 
 /*
